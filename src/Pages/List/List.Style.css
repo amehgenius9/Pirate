@@ -1,0 +1,86 @@
+.col-md-5 {
+    display: flex;
+    justify-content: center;
+}
+
+.imageBg {
+    width: 400px;
+    display: flex;
+    justify-self: center;
+}
+
+.secondPart {
+    background-image: var(--gradiant-bg-color1);
+    padding: 2rem 0;
+    color: var(--main-color-white);
+}
+
+.mobile {
+    max-width: 400px;
+}
+
+.caseScenario {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.subHeader {
+    padding: 0 200px;
+}
+
+.listProperty {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    overflow-x: scroll;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.listContainer {
+    background-image: var(--gradiant-bg-color1);
+    padding: 4rem 0;
+    text-align: left !important;
+    border-bottom: var(--border);
+    overflow-x: hidden;
+}
+
+.listPropertyParent {
+    /* margin: 0 20px; */
+}
+
+.listTitle {
+    text-align: center;
+    color: var(--main-color-white);
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.carded {
+    background-image: var(--gradiant-bg-color1);
+    padding: 4rem 0 !important;
+    border-bottom: var(--border);
+}
+
+
+@media (max-width: 767px) {
+    .imageBg {
+        display: none;
+    }
+
+    .mobile {
+        max-width: 100%;
+        text-align: center;
+        display: none;
+    }
+
+    .caseScenario {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .subHeader {
+        padding: 0;
+    }
+}

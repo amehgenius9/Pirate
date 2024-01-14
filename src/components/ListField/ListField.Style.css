@@ -1,0 +1,55 @@
+form {
+    width: 100%;
+    padding: 0 20px;
+}
+
+input, textarea {
+    border: none;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #724983;
+    border: 1px solid #964CC3;
+
+}
+
+label {
+    color: white;
+    display: block;
+}
+
+.listField {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    margin-top: 4rem;
+}
+
+
+.label1, .label2 {
+    padding: 0 0 10px 10px;
+}
+
+.listInput {
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid #964CC3;
+}
+
+.textArea {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid #964CC3;
+    height: 150px;
+    padding: 10px;
+}

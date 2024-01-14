@@ -1,0 +1,57 @@
+.footer {
+    padding: 2rem 5rem;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.logoChild {
+    width: 50px;
+}
+
+.childParagraph {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.contactDetails {
+    cursor: pointer;
+    text-align: center;
+}
+
+.contactDetails:hover {
+    color: var(--main-color-purple);
+}
+
+.iconHeader {
+    color: var(--main-color-yellow);
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.iconsLogo {
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem;
+    }
+
+    .contact {
+        text-align: left;
+        margin-top: 20px;
+    }
+}

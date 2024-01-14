@@ -1,0 +1,143 @@
+.home-section {
+    position: relative;
+    background-image: var(--gradiant-bg-color1);
+    border-bottom: var(--border);
+}
+
+.home-content {
+    padding: 7rem 0 4rem 0 !important;
+    color: var(--main-color-white);
+    text-align: left;
+}
+
+.heading-paragraph {
+    padding-top: 10px;
+    font-size: 1.2rem !important;
+}
+
+.heading-name {
+    font-size: 2.4rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.cardComponent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 3.13rem 6rem;
+}
+
+.title-header {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.butto {
+    cursor: pointer !important;
+}
+
+.sub-header {
+    font-size: 1.2rem;
+    padding: 0 30px;
+}
+
+.home-about-section {
+    background-color: var(--sub-color-purple);
+    border-bottom: var(--border);
+}
+
+.mappedArray {
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mappedArray p {
+    margin-bottom: 0 !important;
+}
+
+.ourServices {
+    text-align: center !important;
+    padding-top: 25px;
+    color: var(--main-color-white);
+}
+
+.imageBg {
+    max-height: 400px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+#built {
+    padding: 20px 0 60px 0;
+    border-bottom: var(--border);
+}
+
+.builts{
+    background-color: var(--color) !important;
+    width: 100%;
+    padding: 0rem 6rem;
+}
+
+.builtContainer {
+    padding: 0 2.5rem;
+}
+
+.built {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 50px;
+}
+
+.chatbot {
+    padding: 20px 0;
+    background-color: var(--sub-color-purple) !important;
+
+}
+
+
+@media (max-width: 767px) {
+    .cardComponent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col-md-6 img{
+        display: none;
+    }
+
+    .home-content {
+        padding-bottom: 2rem !important;
+    }
+
+    .home-content {
+        padding: 11rem 0 1rem 0 !important;
+    }
+
+    .mappedArray {
+        padding: 10px 5px;
+    }
+
+    .mappedArray p {
+        margin-bottom: 0 !important;
+        gap: 20px;
+    }
+    .built {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .builtContainer {
+        padding: 0 1rem;
+    }
+}

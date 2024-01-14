@@ -1,0 +1,15 @@
+.headerTitle {
+    color: var(--main-color-white);
+    background-color: var(--main-color-yellow);
+    padding: 5px;
+    font-size: .9rem;
+}
+
+.listContainer1 {
+    display: flex;
+}
+
+.list {
+    font-size: .7rem;
+    padding-bottom: 10px;
+}

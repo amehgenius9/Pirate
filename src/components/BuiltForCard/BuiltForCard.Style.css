@@ -1,0 +1,17 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px 30px;
+    border: 5px solid var(--main-color-white);
+}
+
+.child1 {
+  font-size: 1.7rem;
+  color: var(--main-color-yellow);
+}
+
+.child2 {
+  font-size: .9rem;
+}

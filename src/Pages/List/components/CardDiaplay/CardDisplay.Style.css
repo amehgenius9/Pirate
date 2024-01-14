@@ -1,0 +1,52 @@
+.cardDisplay {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 3rem 2.5rem;
+    align-items: end;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.displayCard {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.displayHeader {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.displaySub {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.displayBtn {
+    padding: .4rem 6rem !important;
+    font-size: 16px !important;
+}
+
+@media (max-width: 767px) {
+    .cardDisplay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 2rem;
+        gap: 20px;
+    }
+
+    .displayHeader {
+        font-size: 1.5rem;
+    }
+
+    .displayBtn {
+        padding: .4rem 1rem !important;
+        font-size: 16px !important;
+    }
+}

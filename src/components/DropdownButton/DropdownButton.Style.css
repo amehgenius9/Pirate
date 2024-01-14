@@ -1,0 +1,9 @@
+.dropdownBtn {
+    background-image: var(--button) !important;
+    border: none !important;
+    padding: 5px 30px;
+}
+
+.dropdown {
+    background-color: none;
+}

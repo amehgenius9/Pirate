@@ -1,0 +1,30 @@
+.marketPlace {
+    position: relative;
+    background-image: var(--gradiant-bg-color1);
+}
+
+.searching {
+    padding: 9rem 0 0rem 0 !important;
+    border: none !important;
+}
+
+.listProperties {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 40px;
+    text-align: left;
+    background-image: var(--gradiant-bg-color1);
+    padding: 3rem 0;
+}
+
+@media (max-width: 767px) {
+    .listProperties {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .searching {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,120 @@
+form {
+    padding: 40px;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+    border-color: #724983;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.pees {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.onboardingParent {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logosParent {
+    background-color: var(--sub-color-purple) !important;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    padding: 0 !important;
+}
+
+.logoos {
+    width: 7rem;
+}
+
+.onboardingFields {
+    overflow-y: scroll;
+    padding-top: 2rem;
+    display: grid;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.spanning {
+    color: #990f7b;
+    cursor: pointer;
+
+}
+
+.forgetPassword {
+    text-align: right;
+    font-size: .8rem;
+    margin: -20px 0 2rem 0;
+    cursor: pointer;
+}
+
+.onboardingBtn {
+    width: 100%;
+    padding: 7px 0 !important;
+    font-size: 1.rem !important;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.toggleViz {
+    position: absolute;
+    right: 15px;
+    top: -3px;
+    cursor: pointer;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+}
+
+.parentToggle {
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .onboardingParent {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 0;
+    }
+    .logosParent {
+        background-color: var(--main-color-white) !important;
+    }
+    .onboardingFields {
+        overflow-y: scroll;
+        padding-top: .4rem;
+        display: block;
+        align-items: center;
+    }
+    form {
+        padding: 10px;
+        width: 100%;
+    }
+    .logoos {
+        width: 4rem;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+    }
+}

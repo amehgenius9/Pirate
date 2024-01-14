@@ -1,0 +1,20 @@
+.lineInput {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lineInput input {
+    border: none;
+    background-color: var(--sub-color-purple) !important;
+    outline: none;
+    padding: 0;
+    width: 40px;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid #964CC3;
+}
+
+.sideImage {
+    width: 20px;
+}
