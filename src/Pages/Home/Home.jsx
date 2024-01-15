@@ -20,18 +20,24 @@ const Home = () => {
           <Row>
             <Col md={7} className="home-header">
                 <h1 className="heading-name">The Decentralized Real Estate Marketplace and Network Technology!</h1>
-                <p className="heading-paragraph">List properties as you come across... <br />
-                A peer-to-peer digital property financial market built for all Streamlined property search, 100%  verified property ownership and allocation. AI Chatbox, Earn as you goooo!
-                </p>
+                <p className="heading-paragraph">List Properties on the goo...</p>
                 <div className="buttons">
                   <Button
-                    title="Get Started"
+                    title="List"
                     className="butto"
                   />
                   <TransparentButton
-                    title="Learn More"
+                    title="Rent"
                     className="butto"
                   />
+                  <TransparentButton
+                    title="Buy"
+                    className="butto"
+                  />
+                  {/* <TransparentButton
+                    title="P2P"
+                    className="butto"
+                  /> */}
                 </div>
             </Col>
 

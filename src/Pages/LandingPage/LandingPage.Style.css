@@ -68,19 +68,25 @@
         justify-content: center;
     }
 
-    .landBtn1 {
+    .landingBtn {
         display: none;
     }
 
     .heroHeader {
         font-size: 1.3rem;
         padding-bottom: 1.2rem;
+        text-align: center;
     }
 
     .heroSub {
         font-size: 1rem;
         font-weight: 500;
         padding-bottom: 1rem;
-        padding-right: 1.5rem;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .heroBtn {
+        width: 100%;
     }
 }

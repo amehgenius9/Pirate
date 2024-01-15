@@ -285,7 +285,7 @@ const Onboarding = () => {
               {showComfirmPassword ? <MdOutlineVisibility /> :  <MdOutlineVisibilityOff />}
               </span>
             </div>
-            <p className='forgetPassword' onClick={() => setShowResetForm(!showResetForm)}>Forget Password</p>
+            {/* <p className='forgetPassword' onClick={() => setShowResetForm(true)}>Forget Password</p> */}
             <Button className='onboardingBtn' type="submit" title='Signup' />
                 <p className='pees'>
                 Already have an account?{' '}
