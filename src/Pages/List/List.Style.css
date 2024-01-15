@@ -11,7 +11,7 @@
 
 .secondPart {
     background-image: var(--gradiant-bg-color1);
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
     color: var(--main-color-white);
 }
 
@@ -27,6 +27,7 @@
 
 .subHeader {
     padding: 0 200px;
+    text-align: center;
 }
 
 .listProperty {
@@ -46,10 +47,6 @@
     overflow-x: hidden;
 }
 
-.listPropertyParent {
-    /* margin: 0 20px; */
-}
-
 .listTitle {
     text-align: center;
     color: var(--main-color-white);
@@ -61,6 +58,12 @@
     background-image: var(--gradiant-bg-color1);
     padding: 4rem 0 !important;
     border-bottom: var(--border);
+}
+
+.robot {
+    display: grid;
+    justify-self: center;
+    max-width: 250px;
 }
 
 
@@ -76,11 +79,16 @@
     }
 
     .caseScenario {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0px;
     }
 
     .subHeader {
         padding: 0;
+    }
+
+    .robot {
+        display: none;
     }
 }

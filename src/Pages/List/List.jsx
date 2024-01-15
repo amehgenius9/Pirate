@@ -7,6 +7,7 @@ import CaseScenarioComponent from './components/CaseScenarioComponent/CaseScenar
 import Mobile from '../../assets/images/mobile-phone.png';
 import { listingProperties, scenario } from './constant';
 import ListingCard from '../../components/ListingCard/ListingCard';
+import Robot from '../../assets/images/robot-image.png'
 import CardComponent from '../Home/components/CardComponent/CardComponent';
 import { services } from '../Home/constant';
 import CardDisplay from './components/CardDiaplay/CardDisplay';
@@ -47,17 +48,18 @@ const List = () => {
               <img src={Mobile} alt='mobille' className='mobile' />
             </Col>
           </Row>
-          {/* <Col md={8}>
+          <Col md={8}>
             <div className='caseScenario'>
               {scenario.map((items, index) => (
                 <CaseScenarioComponent
                 key={index}
                 header={items.header}
-                listing={items.listedItems.list}
+                listing={items.listedItems}
                 />
               ))}
+              <img className='robot' src={Robot} alt='robot' />
             </div>
-            </Col> */}
+            </Col>
         </Container>
       </Container>
       <Container fluid className="listContainer" id="listId">

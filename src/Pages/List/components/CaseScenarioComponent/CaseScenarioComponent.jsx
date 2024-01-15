@@ -6,8 +6,10 @@ const CaseScenarioComponent = ({header, listing }) => {
     <div>
       <header className='headerTitle'>{header}</header>
       <div className='listContainer1'>
-        <ul>
-            <li className='list'>{listing}</li>
+      <ul>
+          {listing.map((item, index) => (
+            <li className='list' key={index}>{item.list}</li>
+         ))}
         </ul>
       </div>
     </div>

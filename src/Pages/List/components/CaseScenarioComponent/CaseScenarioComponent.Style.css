@@ -3,6 +3,8 @@
     background-color: var(--main-color-yellow);
     padding: 5px;
     font-size: .9rem;
+    font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .listContainer1 {
@@ -10,6 +12,11 @@
 }
 
 .list {
-    font-size: .7rem;
+    font-size: .9rem;
     padding-bottom: 10px;
+    color: var(--main-white-color);
+}
+
+ul {
+    padding-left: 15px !important;
 }
